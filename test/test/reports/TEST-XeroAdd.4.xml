@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="XeroAdd" tests="1" time="60.088551" failures="0" errors="1" skipped="0" assertions="1">
+  <testcase name="test_xero_invoice" time="60.08755" assertions="1">
+    <error type="NameError" message="undefined local variable or method `password' for test_xero_invoice(XeroAdd):XeroAdd">
+undefined local variable or method `password' for test_xero_invoice(XeroAdd):XeroAdd (NameError)
+XeroTest.rb:51:in `test_xero_invoice'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/testcase.rb:691:in `run_test'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/testcase.rb:431:in `run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/testsuite.rb:121:in `run_test'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/testsuite.rb:53:in `run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/testsuite.rb:121:in `run_test'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/testsuite.rb:53:in `run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/ui/testrunnermediator.rb:65:in `run_suite'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/ui/testrunnermediator.rb:44:in `block in run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/ui/testrunnermediator.rb:100:in `with_listener'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/ui/testrunnermediator.rb:40:in `run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/ui/testrunner.rb:40:in `start_mediator'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/ui/testrunner.rb:25:in `start'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/ui/testrunnerutilities.rb:24:in `run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/autorunner.rb:409:in `block in run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/autorunner.rb:465:in `change_work_directory'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/autorunner.rb:408:in `run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit/autorunner.rb:59:in `run'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/test-unit-2.5.5/lib/test/unit.rb:502:in `block (2 levels) in &lt;top (required)&gt;'    </error>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>
